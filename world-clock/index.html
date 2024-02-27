@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Lobna Elkerdawy</title>
   </head>
   <body>
@@ -13,38 +15,38 @@
       <select>
         <option value="">Select a city...</option>
         <option value="">Dublin</option>
-        <option value="">Los angeles</option>
+        <option value="">Cairo</option>
         <option value="">Tokyo</option>
         <option value="">London</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="dublin">
         <div>
           <h2>Dublin</h2>
-          <div class="date">February 26th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">13:27<small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="cairo">
         <div>
           <h2>Cairo</h2>
-          <div class="date">February 26th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">13:27<small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="tokyo">
         <div>
           <h2>Tokyo</h2>
-          <div class="date">February 26th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">13:27<small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="london">
         <div>
           <h2>London</h2>
-          <div class="date">February 26th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">13:27<small>PM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
